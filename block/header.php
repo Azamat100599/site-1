@@ -25,7 +25,11 @@
 				<div>Кино и фильмы</div>
 			</a>
 			<a href="#">
+<<<<<<< HEAD
 				<div>IT news</div>
+=======
+				<div>Branch master</div>
+>>>>>>> master
 			</a>
 		</div>
 
