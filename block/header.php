@@ -25,7 +25,7 @@
 				<div>Кино и фильмы</div>
 			</a>
 			<a href="#">
-				<div>Программирование</div>
+				<div>IT news</div>
 			</a>
 		</div>
 
