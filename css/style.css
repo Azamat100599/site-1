@@ -1,0 +1,183 @@
+* {
+	margin: 0;
+	padding: 0;
+	outline: none;
+}
+html {
+	width: 100%;
+}
+body {
+	width: 100%;
+	height: 100%;
+	color: #fff;
+	background-color: #fff;
+	color: #333;		
+	font-family: CALIBRI, Arial, sans-serif;
+	font-size: 1em;
+	line-height: 135%;
+	float: left;
+	overflow-x: hidden;
+}
+img {
+	max-width: 100%;
+	height: auto;
+	width: auto;
+}
+
+a {
+	color: #d32484;
+	text-decoration: none;
+	cursor: pointer;
+	
+}
+		/*   Шапка Сайта    */
+header {
+	width: 100%;
+	background-color: #000;
+	float: left;
+	border: 1px solid silver;
+	padding: 20px 0 20px 20px;
+	font-family: CALIBRI, Arial, sans-serif;
+}
+header #logo {
+	width: 25%;
+	float: left;
+}
+header #logo a {
+	font-size: 40px;
+	color: #fff;
+}
+
+header #MenuHead {
+	width: 52%;
+	float: left;
+}
+header #MenuHead a {
+	color: #fff;
+}
+header #MenuHead div {
+	float: left;
+	margin-left: 20px;
+	font-size: 25px;
+	border: 1px solid silver;
+	border-radius: 300px;
+	padding: 6px 8px 8px 6px;
+}
+
+header #logo a:hover, header #MenuHead div:hover, header #RegAuth a:hover {
+	color: red;
+}
+
+header #RegAuth {
+	width: 23%;
+	float: left;
+}
+header #RegAuth a {
+	color: #fff;
+	font-size: 25px;
+}
+
+#wrapper {
+	width: 100%;
+	float: left;
+}
+#wrapper #LeftCol {
+	float: left;
+	width: 60%;
+}
+#wrapper #RightCol {
+	float: right;
+	width: 30%;
+}
+
+footer {
+	width: 100%;
+	float: left;
+	background-color: #000;
+	border-top: 2px solid silver;
+	padding: 30px;
+}
+footer #social {
+	width: 69%;
+	float: left;
+	margin-left: 1%;
+
+}
+footer #social img {
+	width: 40px;
+	height: 40px;
+	float: left;
+	margin-right: 5px;
+}
+footer #footerInfo {
+	font-size: 40px;
+	width: 30%;
+	float: right;
+	color: #fff;
+}
+
+#wrapper #LeftCol #Left-article {
+	width: 100%;
+	padding: 50px;
+
+
+}
+#wrapper #LeftCol #Left-article #article {
+	padding: 20px;
+	border: 2px solid silver;
+	margin-bottom: 30px;
+}
+#wrapper #LeftCol #Left-article #article h2 {
+	font-size: 35px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+#wrapper #LeftCol #Left-article #article img {
+	width: 400px;
+	height: auto;
+	float: left;
+	margin-right: 20px;
+}
+#wrapper #LeftCol #Left-article #article p {
+	margin-bottom: 20px;
+	font-size: 20px;
+}
+
+#wrapper #LeftCol #Left-article #article div {	
+	font-size: 20px;
+	background-color: #808080;
+	width: 200px;
+	padding: 10px;
+	text-align: center;
+	border-radius: 20px;
+	display: inline;
+	margin-right: 20px;
+}
+#wrapper #LeftCol #Left-article #article #date {
+	width: 200px;
+	display: inline;
+	color: #fff;
+}
+#wrapper #LeftCol #Left-article #article a {
+	color: #fff;
+	cursor: pointer;
+}
+
+#wrapper #LeftCol #Left-article #article a:hover {
+	color: red;
+}
+
+#wrapper #RightCol {
+	padding: 50px 0 0 0;
+}
+#wrapper #RightCol img {
+	margin-top: 50px;
+	margin-left: 50px;
+	width: 300px;
+}
+
+.form-signin {
+	max-width: 400px;
+	padding: 15px;
+	margin: 0 auto;
+}
